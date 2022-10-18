@@ -65,13 +65,15 @@ public class ejercicioaa7 {
 		List<String> ciudad = crearCiudad(url);
 
 		String codigoGroovy = "pipeline{ \n" + 
-					 " "  +"agent any \n" +
-					 " " + " " + "stages('TiempoSevilla'){ \n" + 
-					 " " + " " + " "+ "steps{ \n"  + 
-					 " " + " " + " " + " "+	" El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) +"\n"+
-					 " " + " " + "} \n"+
-					 " " + "} \n"+ 
-							  "}\n";
+					 " "  + " " + " " + " " + "agent any \n" +
+					 " "  + " " + " " + " "+ "stages{ \n" + 
+					 " "  + " " + " " + " "+" "  + " " + " " + " "+ "stage('TiempoSevilla') \n"+
+					 " "  + " " + " " + " "+" "  + " " + " " + " "+" "  + " " + " " + " "+ "steps{ \n"  + 
+					 " " + " " + " " + " "  + " " + " " + " "+" "  + " " + " " + " "+" "  + " " + " " + " "+ "El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) +"\n"+
+					 " "  + " " + " " + " "+" "  + " " + " " + " "+" "  + " " + " " + " "+"} \n"+
+					 " "  + " " + " " + " "+" "  + " " + " " + " "+"} \n"+ 
+					 " "  + " " + " " + " "+"} \n"+
+					 "} \n";
 		String nombreArchivo = "jenkinsFile.txt";
 		try {
 
