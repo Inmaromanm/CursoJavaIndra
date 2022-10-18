@@ -66,10 +66,9 @@ public class ejercicioaa7 {
 
 		String codigoGroovy = "pipeline{ \n" + 
 					 " "  +"agent any \n" +
-					 " " + " " + "stages('Tiempo en Sevilla'){ \n" + 
+					 " " + " " + "stages('TiempoSevilla'){ \n" + 
 					 " " + " " + " "+ "steps{ \n"  + 
-					 " " + " " + " " + " "+	" El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) + "" + "" + "" + ""+
-					 " " + " " + " " +  "} \n"+
+					 " " + " " + " " + " "+	" El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) +"\n"+
 					 " " + " " + "} \n"+
 					 " " + "} \n"+ 
 							  "}\n";
