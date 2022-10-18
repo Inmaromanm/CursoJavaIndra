@@ -64,8 +64,15 @@ public class ejercicioaa7 {
 		URL url = new URL("https://www.el-tiempo.net/api/json/v2/provincias/41");
 		List<String> ciudad = crearCiudad(url);
 
-		String codigoGroovy = "pipeline{ \n" + "agent any \n" + "stages('Tiempo en Sevilla'){ \n" + "steps{ \n" + "script{ \n" + 
-							  "println El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) +"} \n"+"} \n"+"} \n"+ "}\n";
+		String codigoGroovy = "pipeline{ \n" + "" +
+							  "agent any \n" + "" + "" +
+							  "stages('Tiempo en Sevilla'){ \n" + "" + "" + "" +
+							  "steps{ \n"  + 
+							  " El tiempo en "+ciudad.get(0)+" para mañana es: " + ciudad.get(1) + "" + "" + "" + ""+
+							  "} \n"+ "" + "" + "" +
+							  "} \n"+ "" + "" + 
+							  "} \n"+ "" +
+							  "}\n";
 		String nombreArchivo = "jenkinsFile.txt";
 		try {
 

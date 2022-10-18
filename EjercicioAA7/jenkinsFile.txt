@@ -2,8 +2,7 @@ pipeline{
 agent any 
 stages('Tiempo en Sevilla'){ 
 steps{ 
-script{ 
-println El tiempo en Sevilla para mañana es: Cielos con intervalos nubosos aumentando a nubosos con redominio de nubes medias y altas. No se descartan chubascos ocasionales en general d\u00e9biles  m\u00e1s robables en la Sierra Norte .  Temeraturas m\u00ednimas sin cambios; m\u00e1ximas en descenso localmente notable . Vientos variables con redominio de la comonente sur.} 
+ El tiempo en Sevilla para mañana es: Cielos nubosos tendiendo a cubiertos con robabilidad de chubascos ocasionales m\u00e1s robables y frecuentes en el norte de la rovincia.  Temeraturas m\u00ednimas sin cambios; m\u00e1ximas en descenso localmente notable. Vientos del sur o suroeste.} 
 } 
 } 
 }
