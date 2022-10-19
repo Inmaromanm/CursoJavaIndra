@@ -24,4 +24,4 @@ Día de vuelo: mañana
 Ganancia neta: 750000
 Pasajeros que asistieron al vuelo: 7500
 
-Total: 2300000
+Total: 2300000euros
