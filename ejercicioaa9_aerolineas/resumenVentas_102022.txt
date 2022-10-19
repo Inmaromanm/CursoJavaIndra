@@ -1,0 +1,27 @@
+La aerolinea Iberia con la oficina en Madrid
+Vuelos para el 19 de Octubre de 2022:
+Destino: BARCELONA
+Billetes vendidos: 20000
+Día de vuelo: mañana
+Ganancia neta: 1000000
+Pasajeros que asistieron al vuelo: 10000
+
+Destino: BERLIN
+Billetes vendidos: 6000
+Día de vuelo: mañana
+Ganancia neta: 300000
+Pasajeros que asistieron al vuelo: 3000
+
+Destino: Buenos Aires
+Billetes vendidos: 5000
+Día de vuelo: mañana
+Ganancia neta: 250000
+Pasajeros que asistieron al vuelo: 2500
+
+Destino: Madrid
+Billetes vendidos: 15000
+Día de vuelo: mañana
+Ganancia neta: 750000
+Pasajeros que asistieron al vuelo: 7500
+
+Total: 2300000
