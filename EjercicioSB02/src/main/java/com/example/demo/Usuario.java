@@ -120,7 +120,6 @@ public class Usuario implements Interfaz_Usuario {
 		for(int i=1; i<lista.size(); i++) {
 			String[] res = lista.get(i).split(",");
 			listaResult.add(res[0]);
-			System.out.println(res[0]);
 		}
 		
 		return listaResult;

@@ -32,8 +32,6 @@ public class EjercicioSb02Application {
 			System.out.println("Error");
 			e.printStackTrace();
 		}
-		
-		System.out.println(Usuario.obtenerUsuariostxt("C:\\Users\\iromanm\\Documents\\workspace-spring-tool-suite-4-4.16.0.RELEASE\\EjercicioSB02\\loginUsuarios.txt"));
 	}
 
 }
