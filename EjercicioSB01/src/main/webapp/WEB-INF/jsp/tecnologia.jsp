@@ -1,13 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Tiempo</title>
+<title>Tecnologia</title>
 </head>
 <body>
-<h2>Tiempo! ${tiempo}!</h2>
-<div><a href="index.jsp"></a></div>
+<h2>Sección de tecnologia</h2>
+<p>${tecnologia}</p>
+<% %>
 </body>
 </html>

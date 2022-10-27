@@ -1,7 +1,10 @@
 package com.example.demo;
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Scanner;
 
 public class Usuario implements Interfaz_Usuario {
 
@@ -105,4 +108,22 @@ public class Usuario implements Interfaz_Usuario {
 		return lista;
 	}
 
+	public static List<String> obtenerUsuariostxt(String fich) throws FileNotFoundException{
+		
+		List<String> listaResult = new ArrayList<>();
+		List<String> lista = new ArrayList<>();
+		Scanner obj = new Scanner(new File(fich),"UTF-8");
+		
+		while(obj.hasNextLine()) {
+			lista.add(obj.nextLine());
+		}
+		
+		for(int i=0; i<lista.size(); i++) {
+			String[] res = lista.get(i).split("");
+			listaResult.add(res[0]);
+		}
+		return listaResult;
+		
+		
+	}
 }

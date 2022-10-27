@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Usuario</title>
+<title>Noticias</title>
 </head>
 <body>
-
+<h2>Sección de noticias</h2>
+<p>${noticias}</p>
+<% %>
 </body>
 </html>

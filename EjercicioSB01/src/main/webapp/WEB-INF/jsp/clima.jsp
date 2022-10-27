@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Tiempo</title>
 </head>
 <body>
-
+<h2>Tiempo en Sevilla</h2>
+<p>${clima}</p>
+<% %>
 </body>
 </html>

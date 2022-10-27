@@ -1,100 +1,67 @@
 package com.example.demo;
 
+import java.io.FileNotFoundException;
 import java.io.IOException;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.util.Scanner;
+import java.util.List;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class Controlador {
 
-	@GetMapping("/index")
+	@GetMapping("index")
 	public String index() {
 		
 		return "index";
 	}
 	
-	@GetMapping("/comida")
-	public String comida() {
+	@GetMapping("comida")
+	public String comida(Model model) {
 		
+		model.addAttribute("comida", Comida.obtenerComida());
 		return "comida";
 	}
 	
-	@GetMapping("/clima")
-	public String clima() {
+	@GetMapping("clima")
+	public String clima(Model model) throws IOException {
 		
+		model.addAttribute("clima", Clima.obtenerClimaSevilla());		
 		return "clima";
 	}
-	@GetMapping("/deportes")
-	public String deportes() {
+	@GetMapping("deportes")
+	public String deportes(Model model) {
 		
+		model.addAttribute("deportes", Deportes.obtenerDeportes());
 		return "deportes";
 	}
-	@GetMapping("/economia")
-	public String economia() {
+	@GetMapping("economia")
+	public String economia(Model model) {
 		
+		model.addAttribute("economia", Economia.obtenerEconomia());
 		return "economia";
 	}
 	
-	@GetMapping("/noticias")
-	public String noticias() {
+	@GetMapping("noticias")
+	public String noticias(Model model) {
 		
+		model.addAttribute("noticias", Noticias.obtenerNoticias());
 		return "noticias";
 	}
 	
-	@GetMapping("/tecnologia")
-	public String tecnologia() {
+	@GetMapping("tecnologia")
+	public String tecnologia(Model model) {
 		
+		model.addAttribute("tecnologia", Tecnologia.obtenerTecnologia());
 		return "tecnologia";
 	}
 	
 	@GetMapping("/usuario")
-	public String usuario() {
-		
+	public String usuario(Model model) throws FileNotFoundException {
+		List<String> listaUsuarios = Usuario.obtenerUsuariostxt("C:\\Users\\iromanm\\Documents\\workspace-spring-tool-suite-4-4.16.0.RELEASE\\EjercicioSB01\\loginUsuarios.txt");
+		model.addAttribute(listaUsuarios);	
 		return "usuario";
 	}
-/*	
-	@GetMapping(value="/clima", params="tiempo")
-	public String clima(@RequestParam String tiempo) throws IOException {
-		tiempo = obtenerTiempo();
-		return tiempo;
-	}
-/*	
-	public String obtenerTiempo() throws IOException {
 
-		String tiempoActual = null;
-		URL url = new URL("https://www.el-tiempo.net/api/json/v2/provincias/41");
-
-		try {
-			HttpURLConnection con = (HttpURLConnection) url.openConnection();
-			con.setRequestMethod("GET");
-			con.connect();
-			int tiempoRespuesta = con.getResponseCode();
-			if (tiempoRespuesta != 200) {
-				throw new RuntimeException("Respuesta de error: " + tiempoRespuesta);
-			} else {
-				StringBuilder informacionEnString = new StringBuilder();
-				Scanner sc = new Scanner(url.openStream());
-				while (sc.hasNext()) {
-					informacionEnString.append(sc.nextLine());
-				}
-				// Tiempo Actual
-				String[] texto = informacionEnString.toString().split("today");
-				String[] limitTiempoA = texto[1].toString().split("tomorrow");
-				tiempoActual = String.valueOf(limitTiempoA[0].toString().replace(":", "").replace("{", "")
-						.replace("p", "").replace(",", "").replace("}", "").replace("\"", ""));
-
-			}
-
-		} catch (MalformedURLException e) {
-			e.printStackTrace();
-		}
-		return tiempoActual;
-	}*/
 }

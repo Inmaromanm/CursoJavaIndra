@@ -2,10 +2,9 @@ package com.example.demo;
 
 public class Comida {
 
-	private String comida;
 	
-	public Comida() {
-		this.comida = "Receta tortilla de patatas"
+	public static String obtenerComida() {
+		return "Receta tortilla de patatas"
 				+ "Ingredientes \r\n"
 				+ "Huevos \r\n"
 				+ "Patatas\r\n"
@@ -23,10 +22,5 @@ public class Comida {
 
 	}
 
-	@Override
-	public String toString() {
-		return "Comida: " + comida;
-	}
-	
 	
 }

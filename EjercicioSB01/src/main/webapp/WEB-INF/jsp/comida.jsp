@@ -3,10 +3,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="ISO-8859-1">
-<title>Insert title here</title>
+<meta charset="UTF-8">
+<title>Comida</title>
 </head>
 <body>
-
+<h2>Sección de comida</h2>
+<p>${comida}</p>
+<% %>
 </body>
 </html>
