@@ -1,0 +1,5 @@
+Paciente Gustavo con id 2 con fecha de nacimiento 1990-01-01 tiene 32 años y tiene Alergia, medicina Corticóidestiene una Esperanza de vida media, valorMedicina 10, seguroMedico No posee recargo 
+Paciente Carlos con id 3 con fecha de nacimiento 1991-05-01 tiene 31 años y tiene Salbutamul, medicina Pafftiene una Esperanza de vida media, valorMedicina 15, seguroMedico Swiss Medical recargo  Cobrar un recargo del 5%, total 0
+Paciente Roxana con id 10 con fecha de nacimiento 1991-02-02 tiene 31 años y tiene Rosacea, medicina Rocutantiene una Esperanza de vida media, valorMedicina 25, seguroMedico Assist Card recargo  Cobrar un 10% de recargo, total 2
+Paciente Mariana con id 4 con fecha de nacimiento 1992-05-05 tiene 30 años y tiene Dolor de pierna, medicina Antiinflamatoriotiene una Esperanza de vida media, valorMedicina 5, seguroMedico Swiss Medical recargo  Cobrar un recargo del 5%, total 0
+Paciente Rosali con id 7 con fecha de nacimiento 1992-09-25 tiene 30 años y tiene Dolor de panza, medicina Antiacidotiene una Esperanza de vida media, valorMedicina 3, seguroMedico No Posee recargo  No cobrar recargo
