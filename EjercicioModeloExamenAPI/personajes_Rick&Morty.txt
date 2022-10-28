@@ -1,0 +1,20 @@
+ID: 1 Nombre: Rick Sanchez Status: Alive Species Human Type:  Gander Male origin-> Name Earth (C-137) origin -> URL https://rickandmortyapi.com/api/location/1
+ID: 2 Nombre: Morty Smith Status: Alive Species Human Type:  Gander Male origin-> Name unknown origin -> URL 
+ID: 3 Nombre: Summer Smith Status: Alive Species Human Type:  Gander Female origin-> Name Earth (Replacement Dimension) origin -> URL https://rickandmortyapi.com/api/location/20
+ID: 4 Nombre: Beth Smith Status: Alive Species Human Type:  Gander Female origin-> Name Earth (Replacement Dimension) origin -> URL https://rickandmortyapi.com/api/location/20
+ID: 5 Nombre: Jerry Smith Status: Alive Species Human Type:  Gander Male origin-> Name Earth (Replacement Dimension) origin -> URL https://rickandmortyapi.com/api/location/20
+ID: 6 Nombre: Abadango Cluster Princess Status: Alive Species Alien Type:  Gander Female origin-> Name Abadango origin -> URL https://rickandmortyapi.com/api/location/2
+ID: 7 Nombre: Abradolf Lincler Status: unknown Species Human Type: Genetic experiment Gander Male origin-> Name Earth (Replacement Dimension) origin -> URL https://rickandmortyapi.com/api/location/20
+ID: 8 Nombre: Adjudicator Rick Status: Dead Species Human Type:  Gander Male origin-> Name unknown origin -> URL 
+ID: 9 Nombre: Agency Director Status: Dead Species Human Type:  Gander Male origin-> Name Earth (Replacement Dimension) origin -> URL https://rickandmortyapi.com/api/location/20
+ID: 10 Nombre: Alan Rails Status: Dead Species Human Type: Superhuman (Ghost trains summoner) Gander Male origin-> Name unknown origin -> URL 
+ID: 11 Nombre: Albert Einstein Status: Dead Species Human Type:  Gander Male origin-> Name Earth (C-137) origin -> URL https://rickandmortyapi.com/api/location/1
+ID: 12 Nombre: Alexander Status: Dead Species Human Type:  Gander Male origin-> Name Earth (C-137) origin -> URL https://rickandmortyapi.com/api/location/1
+ID: 13 Nombre: Alien Googah Status: unknown Species Alien Type:  Gander unknown origin-> Name unknown origin -> URL 
+ID: 14 Nombre: Alien Morty Status: unknown Species Alien Type:  Gander Male origin-> Name unknown origin -> URL 
+ID: 15 Nombre: Alien Rick Status: unknown Species Alien Type:  Gander Male origin-> Name unknown origin -> URL 
+ID: 16 Nombre: Amish Cyborg Status: Dead Species Alien Type: Parasite Gander Male origin-> Name unknown origin -> URL 
+ID: 17 Nombre: Annie Status: Alive Species Human Type:  Gander Female origin-> Name Earth (C-137) origin -> URL https://rickandmortyapi.com/api/location/1
+ID: 18 Nombre: Antenna Morty Status: Alive Species Human Type: Human with antennae Gander Male origin-> Name unknown origin -> URL 
+ID: 19 Nombre: Antenna Rick Status: unknown Species Human Type: Human with antennae Gander Male origin-> Name unknown origin -> URL 
+ID: 20 Nombre: Ants in my Eyes Johnson Status: unknown Species Human Type: Human with ants in his eyes Gander Male origin-> Name unknown origin -> URL 
